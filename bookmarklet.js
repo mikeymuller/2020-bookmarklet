@@ -1,6 +1,6 @@
 (function(){
     var nodes = Array.from(document.body.childNodes);
-    var names = ["warren", "trump", "booker", "biden", "sanders", "bennet", "bloomberg", "buttigieg", "delaney", "gabbard", "klobuchar", "patrick", "steyer", "walsh", "weld", "williamson", "yang"];
+    var names = ["warren", "trump", "booker", "biden", "sanders", "bennet", "bloomberg", "buttigieg", "delaney", "gabbard", "klobuchar", "patrick", "steyer", "walsh", "weld", "williamson", "yang", "castro"];
     iterateChildren(nodes, names);
 })();
 
