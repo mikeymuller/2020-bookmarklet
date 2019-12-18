@@ -27,7 +27,7 @@ function searchNode(node, names){
 
             for(let k = 0; k < names.length; k++){
 
-                if(names[k] == res[j].toLowerCase().replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g,"")){
+                if(names[k] == res[j].toLowerCase().replace(/[.,\/#!\"$%\^&\*;:{}=\-_`~()]/g,"")){
 
                     console.log("Presidential Candidate!");
                     let exp =  new RegExp(res[j], "g");
